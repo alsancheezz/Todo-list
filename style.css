@@ -1,0 +1,85 @@
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(12, 29, 59);
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  min-height: 300px;
+  border-radius: 2em;
+  align-items: center;
+  margin: auto;
+  margin-top: 2em;
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgb(66, 147, 163) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+  margin-top: 2em;
+  padding-bottom: 0.5em;
+}
+
+.list span {
+  list-style-type: none;
+  text-align: center;
+  margin: 5px 5px;
+  min-width: 200px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.todo-form{
+  gap: 0.5em;
+}
+
+#save-btn{
+  margin-left: 1em;
+  border-radius: 1em;
+  margin-top: 1em;
+  border: transparent
+}
+
+#save-btn:hover{
+  cursor: pointer;
+}
+.taskL{
+  border: 1px solid rgb(94, 33, 33);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 1em;
+}
+.list-container button{
+  display: inline-block;
+}
+
+/* .taskL button{
+  margin: 5px 10px;
+} */
+
+.taskL button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.done{
+  margin: 5px 10px;
+
+}
+
+.remove{
+  margin: 5px 10px;
+}
+
+@media (max-width: 760px){
+  .form{
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+  }
+}
